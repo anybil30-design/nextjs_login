@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+/* 레이아웃 공통서식 */
+header{
+  height: 50px;
+}
+
+header > h1{
+  text-align:center;
+}
+
+main{
+  padding: 20px 0px;
+}
+
+footer{
+  background: var(--base_txtColor);
+  color: #fff;
+}
+footer > address{
+  font-style: normal;
+  text-align: center;
+}
